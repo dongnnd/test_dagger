@@ -16,6 +16,7 @@
 
 package com.example.android.dagger.main
 
+import com.example.android.dagger.di.LoggedUserScope
 import com.example.android.dagger.user.UserDataRepository
 import javax.inject.Inject
 

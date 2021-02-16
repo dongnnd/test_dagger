@@ -6,8 +6,8 @@ import dagger.Binds
 import dagger.Module
 
 @Module
-interface StorageModule {
+abstract interface StorageModule {
 
     @Binds
-    fun provideStorage(storage: SharedPreferencesStorage) : Storage
+     abstract fun provideStorage(storage: SharedPreferencesStorage) : Storage
 }
