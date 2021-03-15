@@ -67,7 +67,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun fromOtherBranch2(){
-        Log.d("dongnd", "From other branch")
+        Log.d("dongnd", "From other branch02")
     }
 
 
