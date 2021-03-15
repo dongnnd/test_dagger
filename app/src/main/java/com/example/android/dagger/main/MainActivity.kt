@@ -18,6 +18,7 @@ package com.example.android.dagger.main
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -59,6 +60,16 @@ class MainActivity : AppCompatActivity() {
             userManager.userComponent!!.inject(this)
             setupViews()
         }
+
+        testPush()
+    }
+
+    fun testPush(){
+        Log.d("dongnd", "test")
+    }
+
+    fun testPush2(){
+        Log.d("dongnd", "testPush2")
     }
 
     /**
