@@ -58,18 +58,8 @@ class MainActivity : AppCompatActivity() {
         } else {
             setContentView(R.layout.activity_main)
             userManager.userComponent!!.inject(this)
-            fromTestMergeAgain()
-            finalMain()
-            fromTestMergeAgain()
         }
     }
-
-    fun fromTestMergeAgain(){
-
-    }
-
-    fun finalMain(){
-        Log.d("dongnd", "final main")
 
 
     /**
