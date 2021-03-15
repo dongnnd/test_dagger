@@ -60,11 +60,16 @@ class MainActivity : AppCompatActivity() {
             userManager.userComponent!!.inject(this)
             setupViews()
             testPushMerge()
+            testMerge()
         }
     }
 
     fun testPushMerge(){
         Log.d("dongnd", "test push merge")
+    }
+
+    fun testMerge(){
+
     }
 
     /**
