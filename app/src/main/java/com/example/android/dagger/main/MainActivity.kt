@@ -59,32 +59,12 @@ class MainActivity : AppCompatActivity() {
             setContentView(R.layout.activity_main)
             userManager.userComponent!!.inject(this)
             setupViews()
-            testPushMerge()
-            testMerge()
-            fromMain()
-            fromTestPush2()
-            fromTestPush3()
+            finalMain()
         }
     }
 
-    fun fromMain(){
-        Log.d("dongnd", "From main")
-    }
-
-    fun fromTestPush2(){
-        Log.d("dongnd", "from test push 2")
-    }
-
-    fun fromTestPush3(){
-        Log.d("dongnd", "from test push 2")
-    }
-
-    fun testPushMerge(){
-        Log.d("dongnd", "test push merge")
-    }
-
-    fun testMerge(){
-
+    fun finalMain(){
+        Log.d("dongnd", "final main")
     }
 
     /**
