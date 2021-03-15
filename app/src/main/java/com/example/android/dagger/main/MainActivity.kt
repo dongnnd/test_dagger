@@ -61,7 +61,8 @@ class MainActivity : AppCompatActivity() {
             setupViews()
         }
 
-        testPush()
+        testPush2()
+        Log.d("dongnd", "hi hi")
     }
 
     fun testPush(){
@@ -70,6 +71,10 @@ class MainActivity : AppCompatActivity() {
 
     fun testPush2(){
         Log.d("dongnd", "testPush2")
+    }
+
+    fun testPush3(){
+        Log.d("dongnd", "testPush3")
     }
 
     /**
