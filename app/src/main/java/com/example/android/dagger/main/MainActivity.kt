@@ -60,11 +60,16 @@ class MainActivity : AppCompatActivity() {
             setContentView(R.layout.activity_main)
             userManager.userComponent!!.inject(this)
             fromMain()
+            Log.d("dongnd", "test 01")
         }
     }
 
     private fun fromMain(){
         Log.d("dongnd", "from main")
+    }
+
+    fun test(){
+
     }
 
 
