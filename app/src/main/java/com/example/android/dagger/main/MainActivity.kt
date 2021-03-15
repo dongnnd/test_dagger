@@ -18,6 +18,7 @@ package com.example.android.dagger.main
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -58,7 +59,12 @@ class MainActivity : AppCompatActivity() {
             setContentView(R.layout.activity_main)
             userManager.userComponent!!.inject(this)
             setupViews()
+            testPushMerge()
         }
+    }
+
+    fun testPushMerge(){
+        Log.d("dongnd", "test push merge")
     }
 
     /**
