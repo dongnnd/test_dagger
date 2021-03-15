@@ -66,6 +66,10 @@ class MainActivity : AppCompatActivity() {
         Log.d("dongnd", "From other branch")
     }
 
+    private fun fromOtherBranch2(){
+        Log.d("dongnd", "From other branch02")
+    }
+
 
     /**
      * Updating unread notifications onResume because they can get updated on SettingsActivity
