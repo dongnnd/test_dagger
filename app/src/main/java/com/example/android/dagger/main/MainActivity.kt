@@ -62,11 +62,16 @@ class MainActivity : AppCompatActivity() {
             testPushMerge()
             testMerge()
             fromMain()
+            fromTestPush2()
         }
     }
 
     fun fromMain(){
         Log.d("dongnd", "From main")
+    }
+
+    fun fromTestPush2(){
+        Log.d("dongnd", "from test push 2")
     }
 
     fun testPushMerge(){
