@@ -58,14 +58,19 @@ class MainActivity : AppCompatActivity() {
         } else {
             setContentView(R.layout.activity_main)
             userManager.userComponent!!.inject(this)
-            setupViews()
+            fromTestMergeAgain()
             finalMain()
+            fromTestMergeAgain()
         }
+    }
+
+    fun fromTestMergeAgain(){
+
     }
 
     fun finalMain(){
         Log.d("dongnd", "final main")
-    }
+
 
     /**
      * Updating unread notifications onResume because they can get updated on SettingsActivity
