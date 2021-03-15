@@ -58,7 +58,12 @@ class MainActivity : AppCompatActivity() {
         } else {
             setContentView(R.layout.activity_main)
             userManager.userComponent!!.inject(this)
+            fromOtherBranch()
         }
+    }
+
+    private fun fromOtherBranch(){
+        Log.d("dongnd", "From other branch")
     }
 
 
