@@ -55,6 +55,7 @@ class MainActivity : AppCompatActivity() {
                 startActivity(Intent(this, LoginActivity::class.java))
                 finish()
             }
+            Log.d("dongnd", "hi hi")
         } else {
             setContentView(R.layout.activity_main)
             userManager.userComponent!!.inject(this)
