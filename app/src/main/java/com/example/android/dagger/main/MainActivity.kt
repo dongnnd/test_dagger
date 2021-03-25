@@ -80,6 +80,10 @@ class MainActivity : AppCompatActivity() {
         
     }
 
+    fun fromMain1(){
+
+    }
+
 
 
     /**
