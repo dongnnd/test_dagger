@@ -76,6 +76,10 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    fun commit2(){
+        
+    }
+
 
 
     /**
