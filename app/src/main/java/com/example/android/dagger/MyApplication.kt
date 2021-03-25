@@ -17,6 +17,7 @@
 package com.example.android.dagger
 
 import android.app.Application
+import android.util.Log
 import com.example.android.dagger.di.AppComponent
 import com.example.android.dagger.di.DaggerAppComponent
 import com.example.android.dagger.storage.SharedPreferencesStorage
@@ -30,5 +31,6 @@ open class MyApplication : Application() {
 
      val appComponent: AppComponent by lazy {
         DaggerAppComponent.factory().create(this)
+         Log.d("dongnd", "hi")
     }
 }
